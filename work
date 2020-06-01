@@ -1,1 +1,14 @@
-nubnusnjsc
+import sqlite3
+
+SELECT * FROM keyclub
+
+CREATE TABLE keyclub (students, events, service);
+
+SELECT * FROM keyclub
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+
+INSERT INTO service (service_id, student_id, event_id, hours);
+
