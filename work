@@ -12,3 +12,96 @@ INSERT INTO events (event_id, name, event_date, officer_id)
 
 INSERT INTO service (service_id, student_id, event_id, hours);
 
+
+
+SELECT * FROM keyclub
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (438596, Marcia Pena, 2020, 1)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (234476, Vickie Gathers, 2022, 1)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (144406, Lovie Kneeland, 2021, 1)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (454528, Darin Patman, 2021, 1)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (287154, Rana Peloquin, 2022, 1)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (220169, Cherryl Gammons, 2021, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (375921, Harrison Plumb, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (352937, Shu Weathersby, 2022, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (314408, Dave Twedt, 2022, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (470177, Joel Bridge, 2022, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (457904, Roselee Garrow, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (364536, Mariel Blankinship, 2020, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (405346, Sharron Christiansen, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (89264, Keeley Wedding, 2022, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (100994, Vella Timmer, 2022, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (119876, Roseanne Savidge, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (50761, Liana Pinner, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (464005, Thersa Elingsowrth, 2022, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (196523, Darrick Poblete, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (194606, Stanley Lor, 2020, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (392731, Lanette Corona, 2020, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (351511, Julissa Pratt, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (102514, Maricela Mair, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (182445, Irish Luo, 2021, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (206351, Chantea Burell, 2021, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (86643, Anja Breed, 2022, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (470598, Kemberly Syverson, 2020, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (114406, Angele Kurth, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (120907, Tanisha Bostick, 2023, 0)
+
+INSERT INTO students (student_id, name, grad_yr, officer)
+VALUES (238548, Bobbie Lohse, 2020, 0);
