@@ -1,3 +1,5 @@
+# first part
+
 import sqlite3
 
 SELECT * FROM keyclub
@@ -13,6 +15,7 @@ INSERT INTO events (event_id, name, event_date, officer_id)
 INSERT INTO service (service_id, student_id, event_id, hours);
 
 
+# second part
 
 SELECT * FROM keyclub
 
@@ -105,3 +108,374 @@ VALUES (120907, Tanisha Bostick, 2023, 0)
 
 INSERT INTO students (student_id, name, grad_yr, officer)
 VALUES (238548, Bobbie Lohse, 2020, 0);
+
+
+# third part
+
+SELECT * FROM keyclub
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (0, Easter Stuffing Baskets, 2019-04-15, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (1, Easter Stuffing Baskets, 2019-04-17, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (2, Easter Party Rec Event, 2019-04-18, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (3, Noches de Ciencias at NBHS, 2019-05-01, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (4, NHS Volunteering, 2019-05-02, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (5, Special Olympics, 2019-05-04, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (6, Teacher Appreciation Letter, 2019-05-07, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (7, Senior Awards, 2019-05-31, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (8, Fashion Show, 2019-05-30, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (9, Hudson Hills Senior Living Center, 2019-05-31, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (10, Helping out in Graduation, 2019-06-25, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (11, Volunteer at Library, 2019-07-01, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (12, Volunteer Summer Music Program, 2019-07-01, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (13, Food Packing Church, 2019-07-18, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (14, Volunteering At Liberty Science Fair, 2019-08-01, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (15, Volunteering at Library, 2019-08-08, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (16, Food Packing at Church, 2019-08-13, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (17, Stuffing Envelopeds at HS, 2019-08-19, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (18, Volunteering at NB Pool, 2019-08-23, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (19, Helping out in Guidance, 2019-09-01, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (20, Meet the Teachers Night, 2019-09-01, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (21, Helping Out in Guidance, 2019-09-12, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (22, RTC, 2019-09-14, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (23, RTC, 2019-09-15, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (24, Helping out at Guidance, 2019-09-16, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (25, Helping out at Guidance, 2019-09-17, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (26, Helping out at Guidance, 2019-09-18, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (27, Helping out at Guidance, 2019-09-19, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (28, Helping out in Guidance, 2019-09-20, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (29, Club Fair, 2019-09-20, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (30, Helping out at Guidance, 2019-09-20, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (31, Helping out in Guidance, 2019-09-23, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (32, Helping out in Guidance, 2019-09-24, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (33, Cromebook Committe, 2019-09-24, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (34, Helping out in Guidance, 2019-09-25, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (35, Helping out in Guidance, 2019-09-26, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (36, Helping out in Guidance, 2019-09-29, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (37, Helping out in Guidance, 2019-09-30, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (38, Helping out in Guidance, 2019-10-01, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (39, New Jersey District Project Boxes, 2019-10-01, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (40, Volunteering at Palisade Hospital, 2019-10-06, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (41, Volunteering at Palisade Medical Center, 2019-10-06, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (42, Chromebook Committee, 2019-10-07, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (43, College Fair at NBHS, 2019-10-10, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (44, Recycling after School, 2019-10-10, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (45, Volunteering at Liberty Science Center, 2019-10-12, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (46, Volunteering at {Palisades Medical Center, 2019-10-13, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (47, Chromebook Committee, 2019-10-15, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (48, Paisades Medical Center, 2019-10-20, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (49, Recycling after school, 2019-10-22, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (50, Filling Baskets at Rec, 2019-10-25, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (51, Tutoring in Guidance, 2019-10-25, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (52, Liberty Science Center, 2019-10-26, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (53, Palisades Medical Center, 2019-10-27, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (54, Haunted Hallways- Room, 2019-10-29, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (55, Haunted Hallways, 2019-10-29, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (56, Haunted Hallways- Room, 2019-10-29, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (57, Haunted Hallways- room, 2019-10-29, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (58, Haunted Hallways- room, 2019-10-29, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (59, Haunted Hallways- Room, 2019-10-29, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (60, Tutoring in Guidance, 2019-10-29, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (61, Halloween Party at Rec, 2019-10-31, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (62, Helping in Guidance, 2019-11-01, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (63, Helping out in Main Office, 2019-11-01, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (64, Tutoring in Guidance, 2019-11-01, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (65, Making Pins for Anxiety awarness, 2019-11-12, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (66, Chromebook Committee, 2019-11-13, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (67, Chromebook Committee, 2019-11-18, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (68, Helping in Main Office, 2019-11-19, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (69, Harborside 2, Jercey City (working w/ phones), 2019-11-24, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (70, Parent's Night, 2019-11-26, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (71, Helping out in Guidance, 2019-12-01, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (72, Working in Main Office, 2019-12-01, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (73, Volunteering at Palisades Hosptial, 2019-12-01, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (74, Recycling after school, 2019-12-03, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (75, Fashion show, 2019-12-04, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (76, Handing Out Calenders At Winterfect w/ Envir. Club, 2019-12-05, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (77, Selling Merch at Winterfest w/ Student Counil, 2019-12-05, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (78, Winterfest, 2019-12, 05, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (79, Winterfest, 2019-12-05, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (80, Helped in Selling Hats at Winterfest & Packed Candy, 2019-12-05, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (81, Face Painting with Sapoff for Winterfest, 2019-12-06, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (82, Christmas Party at Rec, 2019-1207, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (83, Pancake Breakfast at Applebee's, 2019-12-07, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (84, Volunteering at Liberty Science Center, 2019-12-07, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (85, Volunteering at Palisades Hospital, 2019-12-08, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (86, Volunteering at Palisades Hospital, 2019-12-15, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (87, Volunteering at Liberty Science Center, 2020-01-04, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (88, Volunteering at Palisades Hospital, 2020-01-05, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (89, Volunteering at Liberty Science Center, 2019-12-21, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (90, Volunteering at Palisades Hospital, 2020-01-12, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (91, Volunteering at Liberty Scinec Center, 2020-01-18, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (92, Volunteering at Palisades Hospital, 2020-01-26, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (93, Volunteering at Liberty Science Center, 2019-12-21, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (94, Volunteering at Palisades Hospital, 2019-12-22, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (95, Volunteering at Liberty Science Center, 2019-12-28, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (96, Volunteering at Liberty Science Center, 2019-12-30, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (97, Volunteering at Liberty Science Center, 2019-12-31, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (98, Helping out in Guidance, 2020-01-01, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (99, Helping out in Main Office, 2020-01-01, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (100, Nutrition Center Winterfest Downtown, 2019-12-10, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (101, Food Bazaar Winterfest, 2019-12-10, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (102, Pathways Holiday Party, 2019-12-13, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (103, Chromebook Committee, 2019-12-16, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (104, Letteres to the Elders, 2019-12-17, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (105, Working in Main Office, 2019-11-20, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (106, Helping out in Guidance, 2019-12-02, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (107, Helping out ing Guidance, 2020-02-01, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (108, Runner for Academic Decathalon, 2020-02-01, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (109, Helping out with Pie-A-Teacher Table, 2020=01-01, 454528)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (110, Recycling after school, 2020-01-01, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (111, Volunteering at Liberty Science Center, 2020-02-01, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (112, Going to Ihop to partnership for Children's Miracle Netwrok, 2020-02-01, 234476)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (113, Helping out in Main Office, 2020-02-01, 144406)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (114, Helping out in Guidance, 2020-01-04, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (115, Helping out in Guidance, 2020-01-20, N/A)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (116, Helping out in Guidance, 2020-01-27, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (117, New Jersey District Project Collections, 2019-12-30, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (118, Helping out in Main Office, 2020-03-01, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (119, Volunteering at Liberty Science Center, 2010-03-01, 438596)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (120, Setting up for Pie-A-Teacher at School Event, 2020=03-04, 287154)
+
+INSERT INTO events (event_id, name, event_date, officer_id)
+VALUES (121, Helping make scarves for Winterfest, 2019-12-01, 438596);
