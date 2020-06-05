@@ -479,3 +479,12 @@ VALUES (120, Setting up for Pie-A-Teacher at School Event, 2020=03-04, 287154)
 
 INSERT INTO events (event_id, name, event_date, officer_id)
 VALUES (121, Helping make scarves for Winterfest, 2019-12-01, 438596);
+
+
+
+# fourth party
+
+keyclub_hours = service.csv
+
+SELECT * FROM keyclub_hours
+    WHERE hours <> 
