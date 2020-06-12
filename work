@@ -509,3 +509,27 @@ SELECT student_id, hours
 WHERE student_id BETWEEN 1 and 10
 SELECT MAX(hours)
 FROM keyclub;
+
+CREATE VIEW club_all_time AS
+SELECT hours, event_date
+SELECT SUM(hours)
+FROM keyclub;
+
+CREATE VIEW club_month_all_time AS
+SELECT SUM(hours), event_date
+WHERE event_date BETWEEN '2019-04-15' AND '2019-09-20'
+FROM keyclub;
+
+CREATE VIEW ind_all_time AS
+SELECT student_id, hours
+FROM keyclub;
+
+CREATE VIEW officer_all_time AS
+SELECT officer = '0', hours, event_date
+FROM keyclub;
+
+CREATE VIEW top_ten_all_time AS
+SELECT student_id, hours, even_date
+WHERE student BETWEEN 1 AND 10
+SELECT MAX(hours)
+FROM keyclubs;
