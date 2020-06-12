@@ -482,9 +482,30 @@ VALUES (121, Helping make scarves for Winterfest, 2019-12-01, 438596);
 
 
 
-# fourth party
+# fourth part
 
-keyclub_hours = service.csv
+SELECT * FROM keyclub;
 
-SELECT * FROM keyclub_hours
-    WHERE hours <> 
+CREATE VIEW club_ytd AS
+SELECT hours, event_date
+SELECT SUM(hours)
+FROM keyclub;
+
+CREATE VIEW club_month AS
+SELECT event_date, SUM(hours)
+WHERE event_date BETWEEN '2019-04-15' AND '2019-04-18'
+FROM keyclub;
+
+CREATE VIEW ind_ytd AS
+SELECT student_id, hours
+FROM keyclub;
+
+CREATE VIEW officer_ytd AS
+SELECT officer = '0', hours
+FROM keyclub;
+
+CREATE VIEW top_ten AS
+SELECT student_id, hours
+WHERE student_id BETWEEN 1 and 10
+SELECT MAX(hours)
+FROM keyclub;
